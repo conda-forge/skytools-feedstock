@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/1cosmologist/skytools/archive/v{{ version }}.tar.gz
-  sha256: 5aa3e4d8854885723d2ae43044da1dada8023de807e0accd3dfc8e8693aefb1f
+  sha256: e7aed19ea4b251c43adefb55e912f61b454da57599852fddd26b0e34f05af047
 
 build:
   noarch: python
