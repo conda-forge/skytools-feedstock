@@ -1,5 +1,5 @@
 {% set name = "skytools" %}
-{% set version = "0.0.1b6" %}
+{% set version = "0.0.1b7" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/1cosmologist/skytools/archive/v{{ version }}.tar.gz
-  sha256: e7aed19ea4b251c43adefb55e912f61b454da57599852fddd26b0e34f05af047
+  sha256: cf2c55ff819f1f47b9f2f5e2b73347640628d6531ef480bc7f8d03f0d763ae43
 
 build:
   noarch: python
@@ -18,15 +18,15 @@ build:
 
 requirements:
   host:
-    - python >=3.9
+    - python >=3.10
     - meson-python
     - pkg-config
     - pip
   run:
-    - python >=3.9
+    - python >=3.10
     - astropy >=5.3
     - healpy >=1.16.0
-    - numpy >=1.23
+    - numpy >=2.0.0
     - scipy >=1.10
     - joblib >=1.2.0
     
