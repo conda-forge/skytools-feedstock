@@ -1,5 +1,5 @@
 {% set name = "skytools" %}
-{% set version = "0.0.1b7 " %}
+{% set version = "0.0.1b7" %}
 
 package:
   name: {{ name|lower }}
