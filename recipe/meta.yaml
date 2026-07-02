@@ -1,5 +1,5 @@
 {% set name = "skytools" %}
-{% set version = "0.1.0" %}
+{% set version = "0.1.2" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/1cosmologist/skytools/archive/v{{ version }}.tar.gz
-  sha256: 07b2fbe5d76f1bbd7a5faf7b4780337bf85cba1c46cd0895879f8d9dd9f1e7a1
+  sha256: 8bb4ca7942ffda9a12e105b50cae7d2d6ab209c227a5ea7ed061d07d49162d7e
 
 build:
   noarch: python
